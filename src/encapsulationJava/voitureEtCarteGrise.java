@@ -50,6 +50,7 @@ public class Voiture {
     public void setModele(String modele) {
         this.modele = modele;
     }
+
     void lierCarteGrise(CarteGrise c){
         this.carteGrise = c;
         c.setProprietaire(this);
