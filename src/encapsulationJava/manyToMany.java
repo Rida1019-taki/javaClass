@@ -21,9 +21,9 @@ public class Etudiant {
     }
 
     void inscrire(Cours c) {
-        if (!coursSuivis.contains(c)) {     // éviter duplication
+        if (!coursSuivis.contains(c)) {
             coursSuivis.add(c);
-            c.ajouterEtudiant(this);        // liaison bidirectionnelle
+            c.ajouterEtudiant(this);
         }
     }
 
